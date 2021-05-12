@@ -55,6 +55,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__link {
@@ -172,7 +173,7 @@
 }
 
 .table__text {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -317,7 +318,10 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin: 0 0 16px;
+}
+
+.footer__column-links-list {
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
