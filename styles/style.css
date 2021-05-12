@@ -10,19 +10,6 @@
   box-sizing: border-box;
 }
 
-/* Reset property values */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 /* Header section */
 
 .header {
@@ -53,7 +40,7 @@ p {
   position: relative;
   z-index: 2;
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bolder;
@@ -97,7 +84,7 @@ p {
 
 .description {
   display: flex;
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 
 .two-columns {
@@ -109,6 +96,7 @@ p {
 
 .two-columns__brief {
   width: 175px;
+  margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -121,7 +109,7 @@ p {
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0 0 30px;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -177,7 +165,7 @@ p {
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 24px;
   font-weight: bolder;
   line-height: 1.15;
@@ -197,10 +185,10 @@ p {
 /* Feynman section */
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   padding-top: 100px;
   position: relative;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background: #f2f2f2 url('../images/feynman.png') bottom left / 867px 637px
     no-repeat;
 }
@@ -319,7 +307,7 @@ p {
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 18px;
   font-weight: bolder;
   line-height: 30px;
@@ -329,14 +317,16 @@ p {
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__column-link {
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
-  color: #2f80ed;
+  color: #fff;
   text-decoration: none;
 }
 
