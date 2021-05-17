@@ -1,6 +1,7 @@
 /* Подключение глобальных стилей */
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__link/page__link.css');
 
 /* Animation */
 @import url('../blocks/rotation/rotation.css');

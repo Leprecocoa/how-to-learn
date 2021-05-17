@@ -1,0 +1,7 @@
+.page__link {
+  transition: opacity 0.4s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.page__link:hover {
+  opacity: 0.6;
+}
